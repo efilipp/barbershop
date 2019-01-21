@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Каталог товаров Барбершопа</title>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <ul class="site-navigation">
+        <li><a href="index.html"><img src="./img/barbershop-logo.jpg" width="368" height="153" alt="Логотип Барбершопа"></a></li>
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="prices.html">Прайс-лист</a></li>
+        <li class="site-navigation-current"><a href="shop.html">Магазин</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <ul class="user-block">
+        <li class="login-link">Вход</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 class="main-title">Средства для ухода</h1>
+    <ul class="breadcrumbs">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="katalog.html">Магазин</a></li>
+      <li class="breadcrumbs-current"><a href="#">Средства для ухода</a></li>
+    </ul>
+
+      <form class="product-filters" action="index.html" method="post">
+        <legend>Производители</legend>
+        <input type="checkbox" name="maker" id="baxter" checked>
+          <label for="baxter">Baxter of California</label>
+        <input type="checkbox" name="maker" id="natty">
+          <label for="natty">Mr Natty</label>
+        <input type="checkbox" name="maker" id="suavecito" checked>
+            <label for="suavecito">Suavecito</label>
+        <input type="checkbox" name="maker" id="malin-goetz">
+              <label for="malin-goetz">Malin+Goetz</label>
+        <input type="checkbox" name="maker" id="murrays">
+              <label for="murrays">Murray’s</label>
+        <input type="checkbox" name="maker" id="american-crew" checked>
+              <label for="american-crew">American Crew</label>
+
+        <legend>ГРУППЫ ТОВАРОВ:</legend>
+        <input type="radio" name="product-filters-group" value="shaving-accessories">
+          <label for="">Бритвенные принадлежности</label>
+        <input type="radio" name="product-filters-group" value="care-products" checked>
+          <label for="">Средства для ухода</label>
+        <input type="radio" name="product-filters-group" value="accessories">
+          <label for="">Аксессуары</label>
+
+      <button type="submit" name="product-filters-button">Показать</button>
+      </form>
+      <section class="all-products">
+        <h1 class="visually-hidden">Список выбранных товаров</h1>
+        <section class="product">
+          <h2>
+          <a href="#">
+            <span class="category">Набор для путешествий</span><span class="title">«Baxter of California»</span>
+          </a>
+          </h2>
+          <img src="" alt="Фото набора для путешествий «Baxter of California»">
+          <div class="item-purchase">
+            <span>2900 руб.</span>
+            <a class="button" href="#">Купить</a>
+          </div>
+
+        </section>
+
+
+      </section>
+      <nav aria-label="pagination">
+          <ul class="pagination">
+              <li><a href=""><span aria-hidden="true">«</span><span class="visually-hidden">previous set of pages</span></a></li>
+              <li><a href=""><span class="visually-hidden">page </span>1</a></li>
+              <li><a href="" aria-current="page"><span class="visuallyhidden">page </span>2</a></li>
+              <li><a href=""><span class="visually-hidden">page </span>3</a></li>
+              <li><a href=""><span class="visually-hidden">page </span>4</a></li>
+              <li><a href=""><span class="visually-hidden">next set of pages</span><span aria-hidden="true">»</span></a></li>
+          </ul>
+      </nav>
+  </main>
+  <footer>
+      <p class="footer-contacts">
+        БАРБЕРШОП «БОРОДИНСКИЙ»
+        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+      <a href="map.html">КАК НАС НАЙТИ?</a>
+      </p>
+    <div class="footer-social">
+      <b>Давайте дружить!</b>
+      <ul>
+        <li> <a href= "#" class="social-button Vk">Vkontakte</a></li>
+        <li> <a href= "#" class="social-button fb">Facebook</a></li>
+        <li> <a href= "#" class="social-button Inst">Instagram</a></li>
+      </ul>
+    </div>
+    <p class="footer-copyright">
+      <b>Разработано</b>
+      <img src="./img/htmlacademy-logo" alt="Логотип htmlacademy">
+    </p>
+  </footer>
+</body>
+</html>
