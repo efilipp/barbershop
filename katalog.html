@@ -31,39 +31,53 @@
     </ul>
 
       <form class="product-filters" action="index.html" method="post">
-        <legend>Производители</legend>
-        <input type="checkbox" name="maker" id="baxter" checked>
-          <label for="baxter">Baxter of California</label>
-        <input type="checkbox" name="maker" id="natty">
-          <label for="natty">Mr Natty</label>
-        <input type="checkbox" name="maker" id="suavecito" checked>
-            <label for="suavecito">Suavecito</label>
-        <input type="checkbox" name="maker" id="malin-goetz">
-              <label for="malin-goetz">Malin+Goetz</label>
-        <input type="checkbox" name="maker" id="murrays">
-              <label for="murrays">Murray’s</label>
-        <input type="checkbox" name="maker" id="american-crew" checked>
-              <label for="american-crew">American Crew</label>
+        <fieldset>
+          <legend>Производители</legend>
+            <label>Baxter of California
+              <input type="checkbox" name="baxter" checked>
+            </label>
+            <label>Mr Natty
+              <input type="checkbox" name="natty">
+            </label>
+            <label>Suavecito
+              <input type="checkbox" name="suavecito" checked>
+            </label>
+            <label>Malin+Goetz
+              <input type="checkbox" name="malin-goetz">
+            </label>
+            <label>Murray’s
+              <input type="checkbox" name="murrays">
+            </label>
+            <label>American Crew
+              <input type="checkbox" name="american-crew" checked>
+            </label>
+        </fieldset>
 
-        <legend>ГРУППЫ ТОВАРОВ:</legend>
-        <input type="radio" name="product-filters-group" value="shaving-accessories">
-          <label for="">Бритвенные принадлежности</label>
-        <input type="radio" name="product-filters-group" value="care-products" checked>
-          <label for="">Средства для ухода</label>
-        <input type="radio" name="product-filters-group" value="accessories">
-          <label for="">Аксессуары</label>
+        <fieldset>
+          <legend>Группы товаров:</legend>
+            <label>Бритвенные принадлежности
+              <input type="radio" name="product-filters-group" value="shaving-accessories">
+            </label>
+            <label>Средства для ухода
+              <input type="radio" name="product-filters-group" value="care-products" checked>
+            </label>
+            <label>Аксессуары
+              <input type="radio" name="product-filters-group" value="accessories">
+            </label>
+            <button type="submit" name="product-filters-button">Показать</button>
+        </fieldset>
 
-      <button type="submit" name="product-filters-button">Показать</button>
       </form>
+
       <section class="all-products">
-        <h1 class="visually-hidden">Список выбранных товаров</h1>
+        <h2 class="visually-hidden">Список выбранных товаров</h2>
         <section class="product">
           <h2>
           <a href="#">
             <span class="category">Набор для путешествий</span><span class="title">«Baxter of California»</span>
           </a>
           </h2>
-          <img src="" alt="Фото набора для путешествий «Baxter of California»">
+          <img src="./img/item-photo.png" alt="Фото набора для путешествий «Baxter of California»">
           <div class="item-purchase">
             <span>2900 руб.</span>
             <a class="button" href="#">Купить</a>
@@ -86,9 +100,9 @@
   </main>
   <footer>
       <p class="footer-contacts">
-        БАРБЕРШОП «БОРОДИНСКИЙ»
-        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
-      <a href="map.html">КАК НАС НАЙТИ?</a>
+        Барбершоп «Бородинский»
+        Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+      <a href="map.html">Как нас найти?</a>
       </p>
     <div class="footer-social">
       <b>Давайте дружить!</b>
