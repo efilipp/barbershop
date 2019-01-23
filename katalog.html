@@ -85,8 +85,8 @@
 
         </section>
 
-
       </section>
+
       <nav aria-label="pagination">
           <ul class="pagination">
               <li><a href=""><span aria-hidden="true">«</span><span class="visually-hidden">previous set of pages</span></a></li>
@@ -97,6 +97,22 @@
               <li><a href=""><span class="visually-hidden">next set of pages</span><span aria-hidden="true">»</span></a></li>
           </ul>
       </nav>
+
+      <section class="modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите пожалуйста свой логин и пароль</p>
+          <form class="login-form" action="index.html" method="post">
+            <input type="text" name="user-login" value="" placeholder="Логин">
+            <input type="password" name="user-password" value="" placeholder="Пароль">
+            <label>Запомните меня
+              <input type="checkbox" name="remember" checked>
+            </label>
+            <a href="#">Я забыл пароль!</a>
+            <button type="submit" name="user-submit">Войти</button>
+          </form>
+        <span class="modal-close">x</span>
+      </section>
+      
   </main>
   <footer>
       <p class="footer-contacts">
