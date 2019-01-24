@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  background-image: url("../img/index-grid.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.main-navigation {
+  width: 780px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.main-navigation  a {
+  color: #ffffff;
+}
+
+.site-navigation,
+.user-block {
+  list-style: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.user-block {
+  width: 140px;
+}
+
+.visually-hidden {
+  font-size: 0px;
+}
+
+.features-list {
+  list-style: none;
+  text-align: center;
+}
+
+.features-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-columns {
+  color: #000000;
+  background-color: #f8f5f2;
+  background-image: url('../img/bg_content.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.news time {
+  text-transform: none;
+}
+.news-list{
+  list-style: none;
+}
+
+.gallery-content {
+  background-color: #cccccc;
+  border: 7px solid #ffffff;
+}
+
+.booking-form input {
+  font: inherit;
+  border: 2px solid #000000;
+  background-color: transparent;
+}
+
+.booking-form input:focus {
+  border-color: #663d15;
+}
+
+.modal {
+  color: #000000;
+  background-color: #f7f4f1;
+  background-image: url('../img/bg_content.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal a {
+  color: #000000;
+  text-decoration: underline;
+}
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+
+.login-form input:focus {
+  border-color: #663d15;
+}
+
+.main-footer {
+  color: #ffffff;
+  background-color: #232323;
+  background-image: url('../img/bg_footer.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-social a {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
